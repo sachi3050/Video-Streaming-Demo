@@ -3,7 +3,7 @@ Just some efforts for normal but small video clip to be accessible over the Inte
 
 
 Project Structue:-
-video-streaming-demo/
+video-streaming-demo/ 
 ├─ Jenkinsfile
 ├─ Dockerfile
 ├─ .dockerignore
