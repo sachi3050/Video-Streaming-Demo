@@ -18,7 +18,7 @@ pipeline {
 
     stage('Checkout') {
       steps {
-        checkout scm
+        git branch: 'main', changelog: false, credentialsId: 'git-cred', poll: false, url: 'https://github.com/sachi3050/Video-Streaming-Demo.git'
       }
     }
 
